@@ -1,0 +1,127 @@
+{
+  "data": {
+    "dateFrom": "2020-03-01",
+    "dateTo": "2020-11-26",
+    "summary": [
+      {
+        "uifId": 2056,
+        "userName": "A型０１氏 A型０１名",
+        "recipientNumber": "9988773351",
+        "totalWorkTime": "07:50:00",
+        "totalBreakTime": "00:10:00",
+        "workTimeDetails": [{ "status": 3, "totalWorkTime": "07:50:00" }],
+        "useCounts": 5,
+        "foodCounts": 0
+      },
+      {
+        "uifId": 2230,
+        "userName": "田中 一郎",
+        "recipientNumber": "0123456789",
+        "totalWorkTime": "07:50:00",
+        "totalBreakTime": "00:10:00",
+        "workTimeDetails": [{ "status": 2, "totalWorkTime": "07:50:00" }],
+        "useCounts": 1,
+        "foodCounts": 0
+      }
+    ],
+    "details": [
+      {
+        "uifId": 2056,
+        "status": 3,
+        "userName": "A型０１氏 A型０１名",
+        "recipientNumber": "9988773351",
+        "date": "03/05(木)",
+        "inoutStartTime": "2020-03-05 10:00:00",
+        "inoutEndTime": "2020-03-05 18:00:00",
+        "food": 0,
+        "workStartTime": "10:00:00",
+        "workEndTime": "18:00:00",
+        "totalWorkTime": "07:50:00",
+        "totalBreakTime": "00:10:00",
+        "memo": null,
+        "targetDate": "2020-03-05"
+      },
+      {
+        "uifId": 2056,
+        "status": 2,
+        "userName": "A型０１氏 A型０１名",
+        "recipientNumber": "9988773351",
+        "date": "03/06(金)",
+        "inoutStartTime": "2020-03-06 10:00:00",
+        "inoutEndTime": "2020-03-06 18:00:00",
+        "food": 0,
+        "workStartTime": null,
+        "workEndTime": null,
+        "totalWorkTime": null,
+        "totalBreakTime": null,
+        "memo": "",
+        "targetDate": "2020-03-06"
+      },
+      {
+        "uifId": 2056,
+        "status": 4,
+        "userName": "A型０１氏 A型０１名",
+        "recipientNumber": "9988773351",
+        "date": "03/09(月)",
+        "inoutStartTime": "2020-03-09 10:00:00",
+        "inoutEndTime": "2020-03-09 18:00:00",
+        "food": 1,
+        "workStartTime": null,
+        "workEndTime": null,
+        "totalWorkTime": null,
+        "totalBreakTime": null,
+        "memo": "",
+        "targetDate": "2020-03-09"
+      },
+      {
+        "uifId": 2056,
+        "status": 3,
+        "userName": "A型０１氏 A型０１名",
+        "recipientNumber": "9988773351",
+        "date": "03/12(木)",
+        "inoutStartTime": "2020-03-12 10:00:00",
+        "inoutEndTime": "2020-03-12 18:00:00",
+        "food": 0,
+        "workStartTime": null,
+        "workEndTime": null,
+        "totalWorkTime": null,
+        "totalBreakTime": null,
+        "memo": "",
+        "targetDate": "2020-03-12"
+      },
+      {
+        "uifId": 2056,
+        "status": 3,
+        "userName": "A型０１氏 A型０１名",
+        "recipientNumber": "9988773351",
+        "date": "03/13(金)",
+        "inoutStartTime": "2020-03-13 10:00:00",
+        "inoutEndTime": "2020-03-13 18:00:00",
+        "food": 1,
+        "workStartTime": null,
+        "workEndTime": null,
+        "totalWorkTime": null,
+        "totalBreakTime": null,
+        "memo": "",
+        "targetDate": "2020-03-13"
+      },
+      {
+        "uifId": 2230,
+        "status": 2,
+        "userName": "田中 一郎",
+        "recipientNumber": "0123456789",
+        "date": "03/17(火)",
+        "inoutStartTime": "2020-03-17 10:00:00",
+        "inoutEndTime": "2020-03-17 18:00:00",
+        "food": 0,
+        "workStartTime": "10:00:00",
+        "workEndTime": "18:00:00",
+        "totalWorkTime": "07:50:00",
+        "totalBreakTime": "00:10:00",
+        "memo": "",
+        "targetDate": "2020-03-17"
+      }
+    ],
+    "warnings": []
+  }
+}

@@ -1,0 +1,4 @@
+export const WAIT_NAVIGATION_TRANSITION = "UI/WAIT_NAVIGATION_TRANSITION";
+export const CANCEL_NAVIGATION_TRANSITION = "UI/CANCEL_NAVIGATION_TRANSITION";
+
+export type NavigationTransitionState = boolean;
