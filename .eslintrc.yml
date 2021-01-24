@@ -1,0 +1,98 @@
+---
+env:
+  browser: true
+  es6: true
+  jest: true
+extends:
+  - eslint:recommended
+  - plugin:react/recommended
+  - airbnb
+  - plugin:@typescript-eslint/recommended
+  - plugin:prettier/recommended
+  - prettier
+  - prettier/@typescript-eslint
+  - prettier/react
+overrides:
+  - files:
+      - src/**/*.(t)s?(x)
+    excludedFiles:
+      - build/**/*
+      - config/**/*.js
+      - node_modules/**/*.ts
+      - static/js/**/*.js
+      - coverage/lcov-report/*.js
+settings:
+  import/resolver:
+    node:
+      extensions:
+        - .js
+        - .jsx
+        - .ts
+        - .tsx
+      paths:
+        - ./src
+parser: "@typescript-eslint/parser"
+parserOptions:
+  sourceType: module
+globals:
+  isNaN: false
+  location: true
+plugins:
+  - jsx-a11y
+  - import
+  - "@typescript-eslint"
+rules:
+  prettier/prettier:
+    - error
+    - tabWidth: 2
+    - trailingComma: none
+  import/extensions:
+    - error
+    - never
+  "@typescript-eslint/interface-name-prefix":
+    - error
+    - prefixWithI: never
+  "@typescript-eslint/camelcase":
+    - off
+  no-undef: error
+  semi:
+    - error
+    - always
+    - omitLastInOneLineBlock: true
+  quotes:
+    - error
+    - double
+  operator-linebreak:
+    - error
+    - after
+    - overrides:
+        "?": before
+        ":": before
+  comma-dangle:
+    - error
+    - only-multiline
+  import/no-unresolved: # onにするのに、webpackの読み込みが必要になり、メモリ不足で実行できなくなる
+    - off
+  import/order:
+    - off
+  import/no-extraneous-dependencies:
+    - error
+    - devDependencies:
+        - "**/*.stories.tsx"
+        - "**/*.spec.ts"
+      peerDependencies: false
+  react/jsx-props-no-spreading:
+    - off
+  react/static-property-placement:
+    - error
+    - "static public field"
+    - defaultProps: "static getter"
+  react/jsx-filename-extension:
+    - error
+    - extensions:
+        - tsx
+        - jsx
+  react/destructuring-assignment:
+    - off
+  react/prop-types:
+    - off
